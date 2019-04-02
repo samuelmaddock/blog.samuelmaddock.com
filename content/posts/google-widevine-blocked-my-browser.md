@@ -1,13 +1,13 @@
 ---
 title: "I tried creating a web browser, and Google blocked me"
 tags: ["browser", "drm", "google", "widevine"]
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
-date: 2019-04-01T09:46:29-04:00
+featured_image: '/images/chromium-hero.png'
+date: 2019-04-02T09:00:00-04:00
 ---
 
 ![I'm sorry but we're not supporting an open source solution like this](/images/google-widevine-gmail.png)
 
-After 4 months of waiting, that is the response I got from Widevine, Google’s DRM for web browsers. For the last 2 years I’ve been working on a web browser that now cannot be completed because Google, the creators of the _open source_ browser Chrome, won’t allow DRM in an _open source_ project.
+After 4 months of waiting, that is the response I got from [Widevine](https://www.widevine.com/), Google’s DRM for web browsers. For the last 2 years I’ve been working on a web browser that now cannot be completed because Google, the creators of the _open source_ browser Chrome, won’t allow DRM in an _open source_ project.
 
 The browser I’m building, called [Metastream](https://github.com/samuelmaddock/metastream), is an Electron-based (Chromium derived), MIT-licensed browser hosted on GitHub. Its main feature is the ability to playback videos on the web, synchronized with other peers. Each client runs its own instance of the Metastream browser and transmits playback information to keep them in sync.
 
@@ -19,6 +19,8 @@ This isn't something I'm alone in either, [several Electron users](https://githu
 
 > _“This is a prime example for why free as in beer is not enough. Small share browsers are at the mercy of Google, and Google is stalling us for no communicated-to-us reason.” - Brian Bondy, Co-founder & CTO of Brave_
 
-I’m now only left with two options regarding the fate of Metastream: stop development of a desktop browser version, or pivot my project to a browser extension. The latter requiring publishing to the Google Chrome Web Store which would further entrench the project into a Google walled garden.
+I’m now only left with two options regarding the fate of Metastream: stop development of a desktop browser version, or pivot my project to a browser extension with reduced features. The latter requiring publishing to the Google Chrome Web Store which would further entrench the project into a Google walled garden.
 
 If you know of any way to help out, [please get in touch](/contact).
+
+_See post on Hacker News for discussion thread._

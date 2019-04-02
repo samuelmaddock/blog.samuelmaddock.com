@@ -11,3 +11,4 @@ menu:
 
 - samuel.maddock at gmail dot com
 - [samuelmaddock.com](http://samuelmaddock.com)
+- [Twitter](https://twitter.com/SamuelMaddock)
