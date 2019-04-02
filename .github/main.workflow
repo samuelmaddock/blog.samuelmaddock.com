@@ -16,7 +16,6 @@ action "Fetch git submodules" {
 
 action "Build Hugo" {
   uses = "srt32/hugo-action@cf509857f219f3dbd979bdead5dc4317b92025d9"
-  args = "-e production"
   needs = "Fetch git submodules"
 }
 
