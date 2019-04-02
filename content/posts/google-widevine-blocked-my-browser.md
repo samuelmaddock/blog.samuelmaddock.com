@@ -1,7 +1,9 @@
 ---
 title: "I tried creating a web browser, and Google blocked me"
 tags: ["browser", "drm", "google", "widevine"]
-featured_image: '/images/chromium-hero.png'
+featured_image: '/images/chromium-cover.png'
+images:
+- /images/chromium-cover-social.png
 date: 2019-04-02T09:00:00-04:00
 ---
 
