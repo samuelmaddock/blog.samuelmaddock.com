@@ -1,0 +1,4 @@
+baseURL = "https://samuelmaddock.github.io/"
+languageCode = "en-us"
+title = "Samuel Maddock’s Blog"
+theme = "ananke"
