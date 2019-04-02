@@ -17,6 +17,9 @@ action "Fetch git submodules" {
 action "Build Hugo" {
   uses = "srt32/hugo-action@cf509857f219f3dbd979bdead5dc4317b92025d9"
   needs = "Fetch git submodules"
+  env = {
+    HUGO_ENV = "production"
+  }
 }
 
 action "Deploy to GitHub Pages" {
