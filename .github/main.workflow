@@ -3,15 +3,15 @@ workflow "On new changes" {
   resolves = ["Deploy to GitHub Pages"]
 }
 
-action "Filter master branch" {
+action "Filter develop branch" {
   uses = "actions/bin/filter@24a566c2524e05ebedadef0a285f72dc9b631411"
-  args = "branch master"
+  args = "branch develop"
 }
 
 action "Fetch git submodules" {
   uses = "srt32/git-actions@master"
   args = "git submodule update --init --recursive"
-  needs = "Filter master branch"
+  needs = "Filter develop branch"
 }
 
 action "Build Hugo" {
