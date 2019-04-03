@@ -11,7 +11,7 @@ date: 2019-04-02T09:00:00-04:00
 
 After 4 months of waiting, that is the response I got from [Widevine](https://www.widevine.com/), Google’s DRM for web browsers, regarding a [license agreement](https://github.com/castlabs/electron-releases#verified-media-path-vmp). For the last 2 years I’ve been working on a web browser that now cannot be completed because Google, the creators of the _open source_ browser Chrome, won’t allow DRM in an _open source_ project.
 
-The browser I’m building, called [Metastream](https://github.com/samuelmaddock/metastream), is an Electron-based (Chromium derived), MIT-licensed browser hosted on GitHub. Its main feature is the ability to playback videos on the web, synchronized with other peers. Each client runs its own instance of the Metastream browser and transmits playback information to keep them in sync.
+The browser I’m building, called [Metastream](https://github.com/samuelmaddock/metastream), is an Electron-based (Chromium derived), MIT-licensed browser hosted on GitHub. Its main feature is the ability to playback videos on the web, synchronized with other peers. Each client runs its own instance of the Metastream browser and transmits playback information to keep them in sync—no audio or video content is sent.
 
 If someone is creating a browser that wants to playback media, they’ll soon discover the requirement of DRM for larger web media services such as Netflix and Hulu. There are a few DRM providers for the web including Widevine, PlayReady, and FairPlay.
 
