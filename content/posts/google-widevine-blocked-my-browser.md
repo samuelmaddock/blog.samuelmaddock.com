@@ -9,7 +9,7 @@ date: 2019-04-02T09:00:00-04:00
 
 ![I'm sorry but we're not supporting an open source solution like this](/images/google-widevine-gmail.png)
 
-After 4 months of waiting, that is the response I got from [Widevine](https://www.widevine.com/), Google’s DRM for web browsers. For the last 2 years I’ve been working on a web browser that now cannot be completed because Google, the creators of the _open source_ browser Chrome, won’t allow DRM in an _open source_ project.
+After 4 months of waiting, that is the response I got from [Widevine](https://www.widevine.com/), Google’s DRM for web browsers, regarding a [license agreement](https://github.com/castlabs/electron-releases#verified-media-path-vmp). For the last 2 years I’ve been working on a web browser that now cannot be completed because Google, the creators of the _open source_ browser Chrome, won’t allow DRM in an _open source_ project.
 
 The browser I’m building, called [Metastream](https://github.com/samuelmaddock/metastream), is an Electron-based (Chromium derived), MIT-licensed browser hosted on GitHub. Its main feature is the ability to playback videos on the web, synchronized with other peers. Each client runs its own instance of the Metastream browser and transmits playback information to keep them in sync.
 
@@ -26,3 +26,5 @@ I’m now only left with two options regarding the fate of Metastream: stop deve
 If you know of any way to help out, [please get in touch](/contact).
 
 [_See post on Hacker News for discussion thread._](https://news.ycombinator.com/item?id=19553941)
+
+[_Article changelog_](https://github.com/samuelmaddock/samuelmaddock.github.io/commits/develop/content/posts/google-widevine-blocked-my-browser.md)
