@@ -25,6 +25,8 @@ I’m now only left with two options regarding the fate of Metastream: stop deve
 
 If you know of any way to help out, [please get in touch](/contact).
 
+**edit:** No response from Google Widevine yet. Because a few folks asked, here is the [full email exchange I had with Widevine](/widevine/gmail-thread.html). The initial response was received after getting in contact with another browser vendor to ping a Widevine contact they have. If you intend to inquire about a license agreement for your project, including the information they requested upfront could help.
+
 [_See post on Hacker News for discussion thread._](https://news.ycombinator.com/item?id=19553941)
 
 [_Article changelog_](https://github.com/samuelmaddock/samuelmaddock.github.io/commits/develop/content/posts/google-widevine-blocked-my-browser.md)
