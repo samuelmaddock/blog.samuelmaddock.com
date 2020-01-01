@@ -1,10 +1,10 @@
-baseURL = "https://samuelmaddock.github.io/"
+baseURL = "https://blog.samuelmaddock.com/"
 languageCode = "en-us"
 title = "Samuel Maddock’s Blog"
 theme = "ananke"
 enableRobotsTXT = true
 
 [params]
-  gitRepo = "https://github.com/samuelmaddock/samuelmaddock.github.io"
+  gitRepo = "https://github.com/samuelmaddock/blog.samuelmaddock.com"
   github = "https://github.com/samuelmaddock"
   twitter = "https://twitter.com/SamuelMaddock"
