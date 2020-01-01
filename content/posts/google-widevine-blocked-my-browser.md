@@ -5,6 +5,9 @@ featured_image: '/images/chromium-cover.png'
 images:
 - /images/chromium-cover-social.png
 date: 2019-04-02T09:00:00-04:00
+lastmod: 2019-04-04T09:00:00-04:00
+hacker_news: "https://news.ycombinator.com/item?id=19553941"
+reddit: "https://www.reddit.com/r/programming/comments/b8jekq/i_tried_creating_a_web_browser_and_google_blocked/"
 ---
 
 ![I'm sorry but we're not supporting an open source solution like this](/images/google-widevine-gmail.png)
@@ -19,14 +22,11 @@ As far as I’m aware, Widevine is the only available DRM for a Chromium-based b
 
 This isn't something I'm alone in either, [several Electron users](https://github.com/electron/electron/issues/12427) have waited months for a response. More prominently, the creators of Brave Browser also had [issues waiting for replies from Google Widevine](https://github.com/brave/browser-laptop/issues/10449#issuecomment-323800130).
 
-> _“This is a prime example for why free as in beer is not enough. Small share browsers are at the mercy of Google, and Google is stalling us for no communicated-to-us reason.” - Brian Bondy, Co-founder & CTO of Brave_
+> “This is a prime example for why free as in beer is not enough. Small share browsers are at the mercy of Google, and Google is stalling us for no communicated-to-us reason.” \
+- Brian Bondy, Co-founder & CTO of Brave
 
 I’m now only left with two options regarding the fate of Metastream: stop development of a desktop browser version, or pivot my project to a browser extension with reduced features. The latter requiring publishing to the Google Chrome Web Store which would further entrench the project into a Google walled garden.
 
 If you know of any way to help out, [please get in touch](/contact).
 
 **April 4th edit:** No response from Google Widevine yet. Because a few folks asked, here is the [full email exchange I had with Widevine](/widevine/gmail-thread.html). The initial response was received after getting in contact with another browser vendor to ping a Widevine contact they have. If you intend to inquire about a license agreement for your project, including the information they requested upfront could help.
-
-[_See post on Hacker News for discussion thread._](https://news.ycombinator.com/item?id=19553941)
-
-[_Article changelog_](https://github.com/samuelmaddock/samuelmaddock.github.io/commits/develop/content/posts/google-widevine-blocked-my-browser.md)

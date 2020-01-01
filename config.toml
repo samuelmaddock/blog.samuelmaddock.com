@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Samuel Maddock’s Blog"
 theme = "ananke"
 enableRobotsTXT = true
+
+[params]
+  gitRepo = "https://github.com/samuelmaddock/samuelmaddock.github.io"
