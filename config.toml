@@ -6,3 +6,5 @@ enableRobotsTXT = true
 
 [params]
   gitRepo = "https://github.com/samuelmaddock/samuelmaddock.github.io"
+  github = "https://github.com/samuelmaddock"
+  twitter = "https://twitter.com/SamuelMaddock"
