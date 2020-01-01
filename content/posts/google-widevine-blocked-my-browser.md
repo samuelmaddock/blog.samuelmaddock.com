@@ -23,7 +23,7 @@ As far as I’m aware, Widevine is the only available DRM for a Chromium-based b
 This isn't something I'm alone in either, [several Electron users](https://github.com/electron/electron/issues/12427) have waited months for a response. More prominently, the creators of Brave Browser also had [issues waiting for replies from Google Widevine](https://github.com/brave/browser-laptop/issues/10449#issuecomment-323800130).
 
 > “This is a prime example for why free as in beer is not enough. Small share browsers are at the mercy of Google, and Google is stalling us for no communicated-to-us reason.” \
-- Brian Bondy, Co-founder & CTO of Brave
+> \- Brian Bondy, Co-founder & CTO of Brave
 
 I’m now only left with two options regarding the fate of Metastream: stop development of a desktop browser version, or pivot my project to a browser extension with reduced features. The latter requiring publishing to the Google Chrome Web Store which would further entrench the project into a Google walled garden.
 
