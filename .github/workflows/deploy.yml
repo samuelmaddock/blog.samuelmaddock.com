@@ -1,0 +1,27 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+    - name: Build Hugo
+      uses: chabad360/hugo-actions@ca0a7c099596b2cd6e187830ec6b799f8ff5dc24
+      env:
+        HUGO_ENV: production
+    - name: Deploy GitHub Pages
+      uses: Cecilapp/GitHub-Pages-deploy@2.0.0
+      env:
+        EMAIL: samuel.maddock@gmail.com
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BUILD_DIR: public/
