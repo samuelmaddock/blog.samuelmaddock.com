@@ -49,7 +49,7 @@
           {{ with .Params.reddit }}
             <a href="{{ . }}" target="_blank">Discuss on Reddit</a><br>
           {{ end }}
-          <a href="{{ .Site.Params.gitRepo }}/commits/develop/content/{{ .Page.File.Path | path.Join }}" target="_blank">View changelog</a>
+          <a href="{{ .Site.Params.gitRepo }}/commits/master/content/{{ .Page.File.Path | path.Join }}" target="_blank">View changelog</a>
         </em>
       </p>
       {{- partial "tags.html" . -}}
