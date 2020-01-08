@@ -5,6 +5,8 @@ featured_image: '/images/end-of-evangelion-door.jpg'
 images:
 - /images/end-of-evangelion-door.jpg
 date: 2020-01-08T09:00:00-04:00
+hacker_news: "https://news.ycombinator.com/item?id=21992050"
+reddit: "https://www.reddit.com/r/webdev/comments/eltwzq/the_end_of_indie_web_browsers_you_can_not_compete/"
 ---
 
 In 2017, the body responsible for standardizing web browser technologies, W3C, introduced _Encrypted Media Extensions_ (EME)—thus bringing with it the end of competitive indie web browsers.
