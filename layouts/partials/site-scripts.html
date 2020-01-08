@@ -1,0 +1,6 @@
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+  <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
+{{ end }}
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
