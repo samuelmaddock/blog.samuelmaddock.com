@@ -8,3 +8,4 @@ enableRobotsTXT = true
   gitRepo = "https://github.com/samuelmaddock/blog.samuelmaddock.com"
   github = "https://github.com/samuelmaddock"
   twitter = "https://twitter.com/SamuelMaddock"
+  custom_css = ["css/figure.css"]

@@ -1,0 +1,16 @@
+figure {
+  margin: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 960px) {
+  figure {
+    margin: 1rem 2rem;
+  }
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  color: #666;
+}
