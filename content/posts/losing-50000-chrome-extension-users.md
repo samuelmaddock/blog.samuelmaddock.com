@@ -5,8 +5,8 @@ featured_image: '/images/extension/webstore-install-prompt.png'
 images:
 - /images/extension/webstore-install-prompt.png
 date: 2020-06-29T13:00:00-04:00
-# hacker_news: "https://news.ycombinator.com/item?id=21992050"
-# reddit: "https://www.reddit.com/r/programming/comments/eltwlh/the_end_of_indie_web_browsers_you_can_not_compete/"
+hacker_news: "https://news.ycombinator.com/item?id=23679472"
+reddit: "https://www.reddit.com/r/programming/comments/hi3tgf/i_lost_50000_chrome_extension_users_after_adding/"
 ---
 
 Last week I shipped an update to [my Chrome extension](https://chrome.google.com/webstore/detail/metastream-remote/fakegmdomhmegokfomgmkbopjibonfcp) which added an additional required permission. Here’s what the permission requests access for:
